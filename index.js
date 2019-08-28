@@ -12,6 +12,8 @@ const start = async () => {
     port: 3000,
   })
 
+  console.log("hola mundo");
+
   // MongoDB Connection
   try{
     await mongoose
